@@ -1,4 +1,3 @@
-import ResponsiveAppBar from "./components/molecules/ResponsiveAppBar"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Usuario from './pages/usuario';
 function App() {
@@ -6,7 +5,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <ResponsiveAppBar />
+        {/* <ResponsiveAppBar /> */}
         <Routes>
           <Route path='/' element={<Usuario/>} />  
           <Route path='/usuarios' element={<Usuario/>} />
